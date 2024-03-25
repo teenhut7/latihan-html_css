@@ -1,0 +1,86 @@
+*{
+    font-family: Tahoma;
+}
+.header{
+    display: flex;
+    background-color: greenyellow;
+    padding: 10px;
+    justify-content: center;
+}
+
+.header-title{
+    color: grey;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header:hover{
+    background-color: aqua;
+}
+
+.judul{
+    display: flex;
+    background-color: coral;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* konten */
+
+.konten{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.konten-credit{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.penulis{
+    color: blue;
+}
+
+.tanggal{
+    color: blueviolet;
+}
+
+span{
+    color: red;
+}
+
+/* Halaman utama container */
+
+.container{
+    /* background-color: antiquewhite; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-preview{
+    width: 300px;
+    margin: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.box-preview-judul{
+    font-size: 1.2em;
+    height: 60px;
+    font-weight: bold;
+}
+
+.box-preview-credit{
+    font-style: italic;
+}
+
+.box-preview:hover{
+    background-color: #efefef;
+}
